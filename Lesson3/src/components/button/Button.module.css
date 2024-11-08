@@ -1,0 +1,16 @@
+.btn {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.primary {
+    background-color: green;
+}
+
+.error {
+    background-color: red;
+}
+
+.secondary {
+    background-color: aqua;
+}
