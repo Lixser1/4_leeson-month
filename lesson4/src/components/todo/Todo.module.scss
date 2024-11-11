@@ -1,0 +1,20 @@
+.li {
+    width: 600px;
+    height: 100px;
+    border: 1px red solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    .info,
+    .btns{
+        display: flex;
+        gap: 10px;
+    }
+}
+
+.done {
+    background-color: green;
+    text-decoration: line-through;
+}
