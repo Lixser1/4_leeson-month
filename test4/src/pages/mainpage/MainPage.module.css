@@ -1,0 +1,35 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputGroup {
+    display: flex;
+    gap: 80px;
+}
+.inputGroup input {
+    width: 348px;
+    height:50px;
+    padding: 8px 12px 8px 12px;
+    gap: 4px;
+    border-radius: 2px;
+    border: 1px solid #D9D9D9;
+
+}
+.button {
+    margin-left: 132px;
+}
+.button button {
+    width: 300px;
+    height:50px;
+    top: 152px;
+    left: 890px;
+    padding: 4px 16px 4px 16px;
+    gap: 8px;
+    border-radius: 2px;
+    border: 1px;
+    background: #1D2CF3;
+    color: white;
+}
+

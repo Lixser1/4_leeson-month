@@ -1,0 +1,38 @@
+
+.book-list {
+    border: 1px solid #007bff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 940px;
+    margin-top: 42px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    color: black;
+}
+tr {
+    display: flex;
+    justify-content: space-between;
+}
+td button {
+    width: 200px;
+    height: 40px;
+    border: red solid 1px;
+    background-color: #fff;
+    color: black;
+}
+.book {
+    margin-top: 17px;
+}
+
