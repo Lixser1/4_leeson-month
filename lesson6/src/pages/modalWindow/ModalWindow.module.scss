@@ -1,0 +1,68 @@
+.modalWindow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.input {
+    width: 500px;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 15px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+.div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+h2 {
+    align-self: flex-start;
+    color: white;
+}
+h1 {
+    color: white;
+    margin: 40px;
+    font-family: Roboto;//стили не применились :_(
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+button {
+    width: 500px;
+    height: 56px;
+    padding: 0 7.6px;
+    border-radius: 11.4px;
+    background: #DB00FF;
+    color: white;
+    font-family: Roboto;//стили не применились :_(
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.modal {
+    width: 600px;
+    height: 680px;
+    top: 355px;
+    left: 420px;
+    padding: 30px 50px 108px 50px;
+    border-radius: 15px;
+    border: 1px solid #FFFFFF
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
